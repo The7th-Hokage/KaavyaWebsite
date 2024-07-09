@@ -1,0 +1,276 @@
+html,body{
+    font-family : "Lucida Grande";
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: #d6536d !important;
+    z-index: 10 !important; 
+    width : 100% !important;
+}
+
+.nav-item{
+    padding-right : 20px;
+}
+
+.navbar-brand{
+    font-size: 30px !important;
+    opacity: 0.95;
+}
+
+li a{
+    transition : color 0.6s;
+}
+
+.progress-container{
+    width: 100%;
+    height : 3px;
+    background: black;
+}
+
+.progress-bar{
+    height: 3px;
+    background-color: white !important;
+    width:0%;
+}
+
+.img-fluid{
+    max-height: 300px;
+    max-width: 300px;
+    min-width: 110px;
+    min-height: 110px;
+    margin-bottom: 1%;
+}
+
+.first-container{
+    width : 100%;
+    height : 800px;
+    background-image: url("homepage.jpg");
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    box-sizing: border-box;
+    padding-right : 50px;
+    padding-left : 50px;
+    padding-top : 15%;
+}
+
+.first-container-blog{
+    width : 100%;
+    height : 800px;
+    background-image: url("BlogCover.jpg");
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    box-sizing: border-box;
+    padding-right : 50px;
+    padding-left : 50px;
+    padding-top : 15%;
+}
+
+.first-container p{
+    font-size: 30px;
+    line-height : 40px;
+}
+
+
+.image-container{
+    height : 40%;
+    width: 20%;
+    text-align: center;
+    margin-left : 40%;
+    margin-right : 40%;
+    margin-bottom: 100px;
+}
+
+.container-fluid{
+    border : 1px solid black;
+}
+
+.second-text{
+    margin-top: 20px;
+    cursor: default;
+    margin-bottom : 60px;
+}
+
+i{
+    color: white;
+    padding-top: 2%;
+}
+
+svg{
+    margin-top: -1%;
+}
+
+
+.subheading{
+    font-family: "Arial";
+    display : inline-block;
+    color: white;
+    font-size: 30px;
+    margin-left : 1%;
+    cursor: default;
+}
+
+#subheading{
+    margin : 10% 0% 5% 0%;
+}
+
+#AboutMeIcon{
+	font-size: 25px;
+}
+
+#Description{
+    color : whitesmoke;
+    padding-left : 3%;
+    line-height: 30px;
+    font-size: 22px;
+    cursor: default;
+    margin-top: 10px;
+}
+
+div.card{
+    margin-bottom: 2%;
+}
+
+.temp2{
+    color:whitesmoke;
+    padding-left : 3%;
+    cursor: default;
+}
+
+.temp2 li{
+    /*list-style-type: "</>";*/
+    font-size : 22px;
+    padding : 7px 25px;
+    word-spacing: 12px;
+}
+
+.card-header {
+    font-size: 25px;
+}
+
+.card-card-title{
+    margin-right: 25px;
+}
+
+#DesigningFrame1{
+	width:49%;
+	display:inline-block;
+	border: none;
+}
+
+#DesigningFrame2{
+	width:49%;
+	display:inline-block;
+	border: none;
+}
+
+h5{
+    display: inline-block;
+}
+
+.GithubLink {
+    color : white;
+}
+
+.GithubLink:hover {
+    color : white;
+}
+
+
+@media screen and (max-width: 576px)
+{
+    p.first-text{
+        font-size: 6vw;
+        margin-top: 10%;
+    }
+
+    p.second-text{
+        font-size: 6vw;
+    }
+
+    a.navbar-brand{
+        font-size: 6vw !important;
+    }
+    .first-container .row{
+        margin-top: 70px;
+    }
+    div.col-md-2{
+        height: 0px;
+    }
+	
+	#DesigningFrame1{
+	width:100%;
+	border: none;
+	}
+
+	#DesigningFrame2{
+	width:100%;
+	border: none;
+	}
+
+}
+@media screen and (min-width: 577px) and (max-width: 751px)
+{
+    p.first-text{
+        font-size: 4vw;
+    }
+
+    p.second-text{
+        font-size: 4vw;
+    }
+
+    a.navbar-brand{
+        font-size: 4vw;
+    }
+    div.col-md-2{
+        height: 0px;
+    }
+	
+		#DesigningFrame1{
+	width:100%;
+	border: none;
+	}
+
+	#DesigningFrame2{
+	width:100%;
+	border: none;
+	}
+}
+
+@media screen and (min-width: 751.1px) and (max-width: 1000px)
+{
+    #Experience-right1{
+        margin-top: 70% !important;
+    }
+}
+
+p.toextend{
+    margin-top : 0px;
+}
+
+#Experience-left1{
+    margin-top: 2%;
+}
+
+#Experience-right1{
+    margin-top: 45%;
+}
+
+#Experience-left2{
+    /*margin-top: -55%;*/
+}
+
+svg.container-fluid{
+    display: inline-block !important;
+}
+
+#contact-me{
+    margin-left: 5%;
+}
+
+p.end{
+    color : white;
+    margin-top: 10%;
+}
